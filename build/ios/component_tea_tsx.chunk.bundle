@@ -1,0 +1,85 @@
+(self["webpackChunkjsminiappengnie"] = self["webpackChunkjsminiappengnie"] || []).push([["component_tea_tsx"],{
+
+/***/ "./component/tea.tsx":
+/*!***************************!*\
+  !*** ./component/tea.tsx ***!
+  \***************************/
+/***/ (function(module, exports, __webpack_require__) {
+
+/* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.id);
+
+Object.defineProperty(exports, "__esModule", ({value:true}));exports["default"]=TeacherSide;var React=_interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));var _reactNative=__webpack_require__(/*! react-native */ "./node_modules/react-native/index.js");var _jsxFileName="/Users/dekins/Documents/04.Labs/JsMiniAppEngnie/component/tea.tsx";function _getRequireWildcardCache(nodeInterop){if(typeof WeakMap!=="function")return null;var cacheBabelInterop=new WeakMap();var cacheNodeInterop=new WeakMap();return(_getRequireWildcardCache=function _getRequireWildcardCache(nodeInterop){return nodeInterop?cacheNodeInterop:cacheBabelInterop;})(nodeInterop);}function _interopRequireWildcard(obj,nodeInterop){if(!nodeInterop&&obj&&obj.__esModule){return obj;}if(obj===null||typeof obj!=="object"&&typeof obj!=="function"){return{default:obj};}var cache=_getRequireWildcardCache(nodeInterop);if(cache&&cache.has(obj)){return cache.get(obj);}var newObj={};var hasPropertyDescriptor=Object.defineProperty&&Object.getOwnPropertyDescriptor;for(var key in obj){if(key!=="default"&&Object.prototype.hasOwnProperty.call(obj,key)){var desc=hasPropertyDescriptor?Object.getOwnPropertyDescriptor(obj,key):null;if(desc&&(desc.get||desc.set)){Object.defineProperty(newObj,key,desc);}else{newObj[key]=obj[key];}}}newObj.default=obj;if(cache){cache.set(obj,newObj);}return newObj;}function TeacherSide(_ref){var user=_ref.user;return React.createElement(_reactNative.View,{style:{flex:1},__self:this,__source:{fileName:_jsxFileName,lineNumber:8,columnNumber:5}},React.createElement(_reactNative.Text,{__self:this,__source:{fileName:_jsxFileName,lineNumber:9,columnNumber:7}},"Hello ",user.name,"!"),React.createElement(_reactNative.Text,{__self:this,__source:{fileName:_jsxFileName,lineNumber:10,columnNumber:7}},"You are a teacher.2021"));}
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.id);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.id);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          false
+        ) {}
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.id].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              false
+            ) {}
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+
+/***/ })
+
+}]);//# sourceMappingURL=component_tea_tsx.chunk.bundle.map?platform=ios
